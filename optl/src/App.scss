@@ -1,0 +1,24 @@
+.scrolling-wrapper {
+    position: absolute;
+width: 1700px;
+height: 168px;
+
+top: 532px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+   
+  }
+.Eventcard {
+    width: 165px;
+    height: 156px;
+    
+    background: linear-gradient(90deg, #FFB347 12.5%, #FFCC33 87.5%);
+    border-radius: 31px;
+  }
+  .scrolling-wrapper .Eventcardcard {
+    display: inline-block;
+  }
+  
