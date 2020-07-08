@@ -53,6 +53,7 @@ color: #FFFFFF;
 }
 .navGroup{
     position: fixed;
+    z-index: 1;
 width: 1310px;
 height: 71px;
 left: 73px;
@@ -118,7 +119,7 @@ position: absolute;
 top: 532px;
 
 width: 100%;
-max-height: 160px;
+max-height: 660px;
 margin-bottom: 20px;
 display: flex;
    overflow-x: auto;
@@ -132,7 +133,6 @@ display: flex;
     cursor: pointer;
     min-width: 165px;
     height: 156px;
-    padding: 0 0 0 15px;
     margin: 0 10px 0 10px;
     background: linear-gradient(90deg, #FFB347 12.5%, #FFCC33 87.5%);
     border-radius: 31px;
@@ -145,9 +145,7 @@ display: flex;
     border-radius: 21px;
     margin: auto;
   }
-  .Eventcard h5,p{
-    visibility: hidden;
-  }
+
   .scrolling-wrapper-flexbox .Eventcardcard,.openEventCard {
     display: inline-block;
 
@@ -166,14 +164,65 @@ background: linear-gradient(90deg, #FFB347 0%, #FFCC33 98.38%);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(100px);
 /* Note: backdrop-filter has minimal browser support */
-display: flex;
+display: flexbox;
+flex-direction: column;
+justify-items: center;
+justify-content: center;
+align-items: center;
+border-radius: 43px;
+background: linear-gradient(90deg, #FFB347 0%, #FFCC33 98.38%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(100px);
+/* Note: backdrop-filter has minimal browser support */
 
 border-radius: 43px;
   }
-  .openEventCard img{
+  .openImgContainer img{
     height: 90%;
-    width: 90%;
+    width: 100%;
     
     border-radius: 21px;
     margin: auto;
+  }
+  .openImgContainer{
+    position: relative;
+    
+    align-items: flex-start;
+    margin: 20px 0 0 20px;
+    width: 90%;
+    height: 200px;
+  }
+.openText{
+
+}
+.openText   h5 {
+    /* Luffy Meets Jenby - 1948 */
+
+
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 41px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.07em;
+
+color: #394E95;
+
+  }
+  .openText   p{
+padding-left: 20px;
+padding-right: 10px;
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+align-items: center;
+letter-spacing: 0.07em;
+
+color: #588AD9;
+
   }
