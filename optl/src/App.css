@@ -1,3 +1,30 @@
+footer {
+  width: 100%;
+  background:#fdab38;
+  padding: 3%;
+  color: white;
+  text-align: center;
+
+}
+.footer-bottom{
+  margin-top: 20px;
+  background: #fdab38;
+
+}
+.contactSection{
+  margin-top: 30px;
+}
+.contactSection a, a :hover{
+  cursor: pointer;
+  pointer-events: none;        
+  text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  clear: both;
+  box-shadow: none;
+  margin: 0 20px 0 20px;
+}
+
 .login{
     
 position: absolute;
@@ -93,12 +120,11 @@ top: 0px;
 }
 .backGroundDefult{
     
-position: fixed;
 width: 100%;
-height: 1024px;
+height: 1020px;
 left: 0px;
 top: 0px;
-overflow:hidden;
+
 background: linear-gradient(55.22deg, rgba(58, 119, 220, 0.8) 0%, rgba(77, 192, 233, 0.8) 51.39%, rgba(235, 247, 224, 0.8) 99.67%);
 
 }
@@ -116,7 +142,7 @@ background: linear-gradient(55.22deg, rgba(58, 119, 220, 0.8) 0%, rgba(77, 192, 
 }
 .scrolling-wrapper-flexbox {
 position: absolute;
-top: 532px;
+top: 332px;
 
 width: 100%;
 max-height: 660px;
@@ -188,12 +214,17 @@ border-radius: 43px;
     position: relative;
     
     align-items: flex-start;
-    margin: 20px 0 0 20px;
+    margin: 20px 20px 0 20px;
     width: 90%;
     height: 200px;
   }
 .openText{
-
+  position: relative;
+    
+  align-items: flex-start;
+  margin: 20px 20px 0 20px;
+  width: 90%;
+  height: 200px;
 }
 .openText   h5 {
     /* Luffy Meets Jenby - 1948 */
@@ -225,4 +256,10 @@ letter-spacing: 0.07em;
 
 color: #588AD9;
 
+  }
+
+  @media screen and (min-width: 320px) and (max-width:480px) {
+    .openEventCard {
+      width: 320px;
+    }
   }
