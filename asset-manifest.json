@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/OPTL/static/css/main.6fe9ed0d.chunk.css",
+    "main.js": "/OPTL/static/js/main.86ebb7e0.chunk.js",
+    "main.js.map": "/OPTL/static/js/main.86ebb7e0.chunk.js.map",
+    "runtime-main.js": "/OPTL/static/js/runtime-main.1a085b3d.js",
+    "runtime-main.js.map": "/OPTL/static/js/runtime-main.1a085b3d.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/OPTL/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5ff4287f.chunk.js": "/OPTL/static/js/2.5ff4287f.chunk.js",
+    "static/js/2.5ff4287f.chunk.js.map": "/OPTL/static/js/2.5ff4287f.chunk.js.map",
+    "index.html": "/OPTL/index.html",
+    "precache-manifest.8cfb2fa50dbf1d6c2a7d315c65a08bb9.js": "/OPTL/precache-manifest.8cfb2fa50dbf1d6c2a7d315c65a08bb9.js",
+    "service-worker.js": "/OPTL/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/OPTL/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.6fe9ed0d.chunk.css.map": "/OPTL/static/css/main.6fe9ed0d.chunk.css.map",
+    "static/js/2.5ff4287f.chunk.js.LICENSE.txt": "/OPTL/static/js/2.5ff4287f.chunk.js.LICENSE.txt",
+    "static/media/photo_2019-05-01_17-44-31.jpg": "/OPTL/static/media/photo_2019-05-01_17-44-31.34b4107f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a085b3d.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5ff4287f.chunk.js",
+    "static/css/main.6fe9ed0d.chunk.css",
+    "static/js/main.86ebb7e0.chunk.js"
+  ]
+}
